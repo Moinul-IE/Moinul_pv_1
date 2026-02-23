@@ -95,7 +95,7 @@ export default function Projects() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl  mx-auto"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto px-2 sm:px-0"
       >
         {filtered.map((project) => (
           <motion.div
@@ -118,10 +118,10 @@ export default function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="h-26 w-full object-cover group-hover:scale-110 transition duration-700"
+                className="h-40 sm:h-48 md:h-56 w-full object-cover group-hover:scale-110 transition duration-700"
               />
 
-              <div className="p-2">
+              <div className="p-4">
                 <h2 className="text-2xl font-bold mb-2">
                   {project.title}
                 </h2>

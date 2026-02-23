@@ -3,7 +3,7 @@ import '../index.css';
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-black text-white px-6 py-20">
+  <div className="min-h-screen bg-black text-white px-4 sm:px-6 md:px-10 py-12 sm:py-20">
       
       {/* Title */}
       <h1 className="text-4xl font-bold text-center mb-1">About Me</h1>
@@ -11,16 +11,14 @@ export default function About() {
         Get to know me better
       </p>
 
-      <div className="max-w-6xl mx-auto grid md:grid-rows-2 gap-10 items-center">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
         {/* LEFT — Image */}
-        <div className="flex justify-center mb-15">
+        <div className="flex justify-center md:justify-start mb-6 md:mb-0">
           <img
             src={MyImage}
             alt="Moinul"
-            className="w-72 h-72 rounded-2xl object-cover
-            shadow-[0_0_50px_rgba(239,68,68,0.6)]
-            border border-white/10"
+            className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-2xl object-cover shadow-[0_0_50px_rgba(239,68,68,0.6)] border border-white/10"
           />
         </div>
         {/* hand animation */}
@@ -33,7 +31,7 @@ export default function About() {
 
 
         {/* RIGHT — Content */}
-        <div className="w-200 m-auto -mt-90 bg-black/70 backdrop-blur-md mb-1 border border-white/10 rounded-xl p-8">
+          <div className="w-full max-w-xl mx-auto md:mx-0 bg-black/70 backdrop-blur-md mb-1 border border-white/10 rounded-xl p-6 md:p-8">
           <h2 className="text-2xl font-semibold mb-4">
             Hi, I’m Moinul 👋
           </h2>

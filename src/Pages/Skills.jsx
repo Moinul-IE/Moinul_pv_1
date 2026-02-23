@@ -90,7 +90,7 @@ export default function Skills() {
               <img
                 src={skill.logo}
                 alt={skill.name}
-                className="w-16 h-16 object-contain"
+                className="w-12 h-12 sm:w-16 sm:h-16 object-contain"
               />
 
               <p className="mt-4 font-semibold tracking-wide text-center">

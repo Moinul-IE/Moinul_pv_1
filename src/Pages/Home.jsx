@@ -1,7 +1,6 @@
 
 
 
-
 import MyImage from '../assets/Image/moinulformal.jpg';
 import { motion } from 'framer-motion';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -17,7 +16,7 @@ const fadeUp = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen px-6 md:px-20 py-24 space-y-32">
+  <div className="min-h-screen px-4 sm:px-6 md:px-20 py-16 sm:py-24 space-y-24 sm:space-y-32">
 
       {/* ================= HERO ================= */}
       <motion.section
@@ -25,11 +24,11 @@ export default function Home() {
         initial="hidden"
         animate="visible"
         transition={{ duration: 0.9 }}
-        className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12
-                   bg-black/70 backdrop-blur-xl rounded-3xl
-                   border border-white/10
-                   shadow-[0_0_80px_rgba(239,68,68,0.5)]
-                   p-12"
+  className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 sm:gap-12
+       bg-black/70 backdrop-blur-xl rounded-3xl
+       border border-white/10
+       shadow-[0_0_80px_rgba(239,68,68,0.5)]
+       p-6 sm:p-8 md:p-12"
       >
         {/* Image */}
         <motion.div
@@ -40,14 +39,13 @@ export default function Home() {
           <img
             src={MyImage}
             alt="Moinul"
-            className="w-60 h-60 rounded-full object-cover
-                       border-4 border-red-500/40"
+            className="w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-full object-cover border-4 border-red-500/40"
           />
         </motion.div>
 
         {/* Content */}
         <div>
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-3xl sm:text-4xl font-bold">
             Hi, I’m <span className="text-red-500">Moinul</span>
           </h1>
 
@@ -62,7 +60,7 @@ export default function Home() {
           </p>
 
           {/* Social */}
-          <div className="flex gap-6 mt-6 text-2xl">
+          <div className="flex gap-4 sm:gap-6 mt-6 text-xl sm:text-2xl">
 
   
 
@@ -114,8 +112,8 @@ export default function Home() {
 </div>
 
           {/* CTA */}
-          <div className="flex gap-4 mt-8">
-            <a className="px-6 py-2 rounded-xl bg-red-500 hover:bg-red-600 transition" href='/projects'>
+          <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8">
+            <a className="w-full sm:w-auto text-center px-6 py-2 rounded-xl bg-red-500 hover:bg-red-600 transition" href='/projects'>
               View Projects
             </a>
             <button

@@ -27,7 +27,7 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div className="min-h-screen bg-black text-white px-8 py-20">
+  <div className="min-h-screen bg-black text-white px-4 sm:px-8 py-12 sm:py-20">
       
       {/* Title */}
       <h1 className="text-4xl font-bold text-center mb-4">Contact Me</h1>
@@ -35,13 +35,13 @@ export default function Contact() {
         Let’s work together or just say hello 👋
       </p>
 
-      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-x-40">
+  <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-16">
 
         {/* LEFT — Contact Info */}
         
 
         {/* RIGHT — Contact Form */}
-        <div className="bg-black/70 mt-35 mb-30  backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-[0_0_60px_rgba(239,68,68,0.6)] ">
+        <div className="bg-black/70 mt-6 mb-6 backdrop-blur-md border border-white/10 rounded-xl p-6 shadow-[0_0_60px_rgba(239,68,68,0.6)]">
           <form ref={form} onSubmit={sendEmail} className="space-y-5">
             <div>
               <label className="block mb-1 text-sm">Your Name</label>
@@ -89,7 +89,7 @@ export default function Contact() {
 {/* contact info */}
 
 
-<div className="w-lg h-100 bg-black/70 backdrop-blur-md shadow-[0_0_60px_rgba(239,68,68,0.6)] border border-white/10 rounded-xl p-6  space-y-6">
+  <div className="w-full bg-black/70 backdrop-blur-md shadow-[0_0_60px_rgba(239,68,68,0.6)] border border-white/10 rounded-xl p-6 space-y-6">
           <h2 className="text-2xl font-semibold">Get in Touch</h2>
 
           <p className="text-gray-300">

@@ -164,7 +164,7 @@ export default function Projects() {
           <motion.div
             initial={{ scale: 0.7, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="bg-black border border-white/10 rounded-2xl max-w-lg w-full p-6 relative"
+            className="bg-black border border-white/10 rounded-2xl max-w-lg w-full p-4 sm:p-6 relative mx-2 sm:mx-auto max-h-[90vh] overflow-auto"
           >
             <button
               onClick={() => setActive(null)}

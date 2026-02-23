@@ -6,6 +6,13 @@
   body {
        @apply antialiased;
   }
+
+  /* make images responsive by default */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 @layer components {
@@ -106,4 +113,31 @@
   50% { transform: rotate(10deg); }
   60% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .glass-card {
+    padding: 1rem;
+    border-radius: 0.75rem;
+  }
+
+  .glass-button {
+    padding: 0.6rem 1rem;
+    border-radius: 0.6rem;
+  }
+
+  /* make project modal and other dialogs fit small screens */
+  .responsive-modal {
+    padding: 0.75rem !important;
+    max-height: 92vh !important;
+    overflow: auto !important;
+    border-radius: 0.75rem !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .glass-card {
+    padding: 1.25rem;
+  }
 }
