@@ -113,9 +113,14 @@ export default function Home() {
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8">
-            <a className="w-full sm:w-auto text-center px-6 py-2 rounded-xl bg-red-500 hover:bg-red-600 transition" href='/projects'>
-              View Projects
-            </a>
+
+            
+            <Link 
+            to="/projects"
+            className="w-full sm:w-auto text-center px-6 py-2 rounded-xl bg-red-500 hover:bg-red-600 transition"
+            >
+            View Projects
+            </Link>
             <button
     onClick={() => {
       const link = document.createElement("a");
