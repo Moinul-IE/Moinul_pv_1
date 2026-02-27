@@ -6,23 +6,23 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    id: 1,
+    id: 2,
     title: "Doctor Appointment System",
     description:
       "MERN-based doctor appointment booking with smart filtering, authentication, and admin control.",
-    image: "/project1.jpg",
+    image: "../assets/Image/wanderlastpic.png",
     tech: ["MERN", "React"],
     live: "#",
     github: "#",
   },
   {
-    id: 2,
-    title: "Listing App",
+    id: 1,
+    title: "WanderLust – Travel Listing CRUD Web App",
     description:
-      "A modern listing platform with image uploads, CRUD features, and secure authentication.",
+      "WanderLast is a travel listing web app with full CRUD operations, allowing users to add, view, edit, and delete accommodations. It features a clean, responsive interface for exploring stays and is designed for future enhancements like booking, authentication, and advanced filters.",
     image: "/project2.jpg",
     tech: ["MERN"],
-    live: "#",
+    live: "https://wanderlast-project-f5cg.onrender.com",
     github: "#",
   },
   {
