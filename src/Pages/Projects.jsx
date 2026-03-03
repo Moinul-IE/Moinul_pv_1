@@ -3,16 +3,20 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import wanderlastpic from "../assets/Image/wanderlastpic.png";
+import  treatment from "../assets/Image/treatment.png";
+import portfolio from "../assets/Image/portfolio.png";
+import upcoming from "../assets/Image/upcoming.png";
 
 const projects = [
   {
     id: 2,
     title: "Doctor Appointment System",
     description:
-      "MERN-based doctor appointment booking with smart filtering, authentication, and admin control.",
-    image: "../assets/Image/wanderlastpic.png",
+"web application version1 platform for booking doctor appointments, featuring smart filtering, secure user authentication, and admin management. Users can browse doctors, book appointments, and manage their schedules. This is the initial version, with more features planned for future development.",
+    image: treatment,
     tech: ["MERN", "React"],
-    live: "#",
+    live: "https://treatment-finder-lqwi.onrender.com",
     github: "#",
   },
   {
@@ -20,7 +24,7 @@ const projects = [
     title: "WanderLust – Travel Listing CRUD Web App",
     description:
       "WanderLast is a travel listing web app with full CRUD operations, allowing users to add, view, edit, and delete accommodations. It features a clean, responsive interface for exploring stays and is designed for future enhancements like booking, authentication, and advanced filters.",
-    image: "/project2.jpg",
+    image: wanderlastpic,
     tech: ["MERN"],
     live: "https://wanderlast-project-f5cg.onrender.com",
     github: "#",
@@ -30,7 +34,18 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Ultra-modern portfolio built with React, Tailwind, Framer Motion & premium UI effects.",
-    image: "/project3.jpg",
+    image: portfolio,
+    tech: ["React"],
+    live: "https://moinul-pv-1.vercel.app/",
+    github: "#",
+  },
+
+   {
+    id: 4,
+    title: "Upcoming Project",
+    description:
+      "Ultra-modern MERN Project.",
+    image: upcoming,
     tech: ["React"],
     live: "#",
     github: "#",
