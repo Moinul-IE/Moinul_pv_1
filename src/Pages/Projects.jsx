@@ -3,10 +3,10 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import wanderlastpic from "../assets/Image/wanderlastpic.png";
-import  treatment from "../assets/Image/treatment.png";
-import portfolio from "../assets/Image/portfolio.png";
-import upcoming from "../assets/Image/upcoming.png";
+import wanderlastpic from "../assets/Image/wanderlastpic";
+import  treatment from "../assets/Image/treatment";
+import portfolio from "../assets/Image/portfoliog";
+import upcoming from "../assets/Image/upcoming";
 
 const projects = [
   {
@@ -42,7 +42,7 @@ const projects = [
 
    {
     id: 4,
-    title: "Upcoming Project",
+    title: "upcoming Project",
     description:
       "Ultra-modern MERN Project.",
     image: upcoming,
