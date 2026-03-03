@@ -3,9 +3,6 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import wanderlastpic from "../assets/Image/wanderlastpic";
-import  treatment from "../assets/Image/treatment";
-import portfolio from "../assets/Image/portfoliog";
 
 const projects = [
   {
