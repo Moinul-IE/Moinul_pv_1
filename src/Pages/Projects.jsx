@@ -13,7 +13,7 @@ const projects = [
     title: "Doctor Appointment System",
     description:
 "web application version1 platform for booking doctor appointments, featuring smart filtering, secure user authentication, and admin management. Users can browse doctors, book appointments, and manage their schedules. This is the initial version, with more features planned for future development.",
-    image: treatment,
+    image: "/treatment.png",
     tech: ["MERN", "React"],
     live: "https://treatment-finder-lqwi.onrender.com",
     github: "#",
@@ -23,7 +23,7 @@ const projects = [
     title: "WanderLust – Travel Listing CRUD Web App",
     description:
       "WanderLast is a travel listing web app with full CRUD operations, allowing users to add, view, edit, and delete accommodations. It features a clean, responsive interface for exploring stays and is designed for future enhancements like booking, authentication, and advanced filters.",
-    image: wanderlastpic,
+    image: "/wanderlastpic.png",
     tech: ["MERN"],
     live: "https://wanderlast-project-f5cg.onrender.com",
     github: "#",
@@ -33,7 +33,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Ultra-modern portfolio built with React, Tailwind, Framer Motion & premium UI effects.",
-    image: portfolio,
+    image: "/portfoliog.png",
     tech: ["React"],
     live: "https://moinul-pv-1.vercel.app/",
     github: "#",
