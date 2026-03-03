@@ -30,7 +30,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Ultra-modern portfolio built with React, Tailwind, Framer Motion & premium UI effects.",
-    image: "/portfoliog.png",
+    image: "/portfolio.png",
     tech: ["React"],
     live: "https://moinul-pv-1.vercel.app/",
     github: "#",
