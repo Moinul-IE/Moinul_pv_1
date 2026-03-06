@@ -124,8 +124,8 @@ export default function Home() {
             <button
     onClick={() => {
       const link = document.createElement("a");
-      link.href = "/cv.pdf"; // file must be inside public folder
-      link.download = "cv.pdf";
+      link.href = "/Moinul_IsLam_Emon.pdf"; // file must be inside public folder
+      link.download = "Moinul_IsLam_Emon.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
