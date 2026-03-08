@@ -10,22 +10,22 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     id: 1,
-    title: "Doctor Appointment System",
+    title: "Wanderlast",
     description:
-      "MERN-based doctor appointment booking with smart filtering, authentication, and admin control.",
-    image: "/project1.jpg",
+      "WanderLast is a travel listing web app with full CRUD operations, allowing users to add, view, edit, and delete accommodations. It features a clean, responsive interface for exploring stays and is designed for future enhancements like booking, authentication, and advanced filters.",
+    image: "/wanderlastpic.png",
     tech: ["MERN", "React"],
-    live: "#",
+    live: "https://wanderlast-project-f5cg.onrender.com",
     github: "#",
   },
   {
     id: 2,
-    title: "Listing App",
+    title: "Treatment-Finder",
     description:
-      "A modern listing platform with image uploads, CRUD features, and secure authentication.",
-    image: "/project2.jpg",
+      "web application version1 platform for booking doctor appointments, featuring smart filtering, secure user authentication, and admin management. Users can browse doctors, book appointments, and manage their schedules. This is the initial version, with more features planned for future development..",
+    image: "/treatment.png",
     tech: ["MERN"],
-    live: "#",
+    live: "https://treatment-finder-lqwi.onrender.com",
     github: "#",
   },
   {
@@ -33,9 +33,9 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Ultra-modern portfolio built with React, Tailwind, Framer Motion & premium UI effects.",
-    image: "/project3.jpg",
+    image: "/portfolio.png",
     tech: ["React"],
-    live: "#",
+    live: "https://moinul-pv-1.vercel.app/",
     github: "#",
   },
 ];
